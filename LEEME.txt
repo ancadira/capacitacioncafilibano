@@ -1,0 +1,21 @@
+CAPACITACIÓN CAFILIBANO – versión 2.0 (aplicación instalable)
+
+CÓMO PUBLICARLA EN GITHUB PAGES
+1. Suba TODO el contenido de esta carpeta a la raíz del repositorio:
+   index.html, manifest.webmanifest, sw.js, .nojekyll y la carpeta icons.
+2. En el repositorio: Settings > Pages > Branch: main / (root) > Save.
+3. El enlace queda así: https://USUARIO.github.io/REPOSITORIO/
+4. Ábralo en Chrome o Edge y oprima "Instalar aplicación".
+
+FIRMA DEL GERENTE (opcional)
+Si el gerente lo autoriza, suba su firma como imagen con este nombre exacto:
+   firma-gerente-cafilibano.png
+junto a index.html. Aparecerá sola en los certificados.
+
+CUANDO CAMBIE EL CONTENIDO
+Si reemplaza index.html, abra sw.js y cambie el texto de VERSION
+(por ejemplo, de v2.0 a v2.1) para que los equipos instalados se actualicen.
+
+PRUEBAS
+Agregue ?demo=1 al final del enlace para probar sin tiempo mínimo.
+Los códigos de prueba salen con el prefijo DEMO- y no tienen validez.
